@@ -27,7 +27,9 @@ Throughout this process, the primary considerations are achieving high accuracy 
 
 ## Results
 
-![image](https://github.com/pengyumu/Road-Damge-Detection/assets/174324735/3bbd1c52-2982-4cb6-a1cf-926c53c60536)
+<div align="center">
+    <img src="https://github.com/pengyumu/Road-Damge-Detection/assets/174324735/3ed7d296-d8b1-4608-8708-bedabcb7ecae" alt="image">
+</div>
 
 We started training with YOLOv8s using pre-trained parameters: confidence threshold = 0.25, IOU threshold = 0.7, image size = 640. The training process began by filtering out images without annotations, allowing 10% of the dataset to include background images. The training was conducted on an NVIDIA Tesla V100 GPU. The model is trained for a total of 10 epochs, with a warmup period of 5% of the total epochs (1 epoch) to stabilize the training process, using a batch size of 32, and employing a cosine learning rate scheduler (cos_lr=True) for adaptive learning rate adjustment.
 
