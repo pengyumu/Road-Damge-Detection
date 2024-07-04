@@ -1,4 +1,3 @@
-# Road-Damge-Detection-using YOLOv8
 
 ## Introduction
 
