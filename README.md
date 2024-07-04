@@ -35,4 +35,5 @@ In our exploration of YOLOv8's hyperparameters, we focused on the mosaic augment
 
 The YOLOv8s model can successfully identify different types of cracks but struggles to detect cracks that are further away, obscured by shadows, or have similar background textures. Additionally, the model fails to accurately detect repairs and shows an issue with duplicate detections, indicating areas needing improvement. These limitations highlight the need for further tuning and refinement to enhance detection capabilities under varied real-world conditions. According to the results obtained so far, YOLOv8 demonstrates good performance in detecting specific classes such as D00 (Longitudinal cracks) and D10 (Transverse cracks), however, its overall performance must be evaluated and optimized to achieve consistent improvements.
 
-![image](https://github.com/pengyumu/Road-Damge-Detection/assets/174324735/022ba5de-4178-433c-ac43-eee3f225c589)
+![image](https://github.com/pengyumu/Road-Damge-Detection/assets/174324735/f27a5092-5856-46d2-86ce-e93ea05f7e18)
+
