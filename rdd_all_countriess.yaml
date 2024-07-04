@@ -1,0 +1,26 @@
+# Dataset Path
+path: /content/drive/My Drive/AML/
+
+train:
+  - DatasetJapan/images/train
+  - DatasetCzech/images/train
+  - DatasetChina_MotorBike/images/train
+  - DatasetUnited_States/images/train
+
+val:
+  - DatasetJapan/images/val
+  - DatasetCzech/images/val
+  - DatasetChina_MotorBike/images/val
+  - DatasetUnited_States/images/val
+
+# Class Names List
+names:
+  0: D00
+  1: D10
+  2: D20
+  3: D40
+  4: D43
+  5: D44
+  6: D50
+  7: Repair
+  
